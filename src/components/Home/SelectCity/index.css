@@ -1,0 +1,20 @@
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  font-size: 17px;
+}
+
+button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.selected {
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.selected:hover {
+  border: 1px solid black;
+}

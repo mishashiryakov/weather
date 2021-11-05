@@ -1,0 +1,15 @@
+.extendedWeatherInfo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 500px));
+  grid-gap: 12px;
+}
+
+.selectedCityInput {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.error {
+  color: red;
+}

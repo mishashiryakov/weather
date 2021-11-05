@@ -1,0 +1,15 @@
+.selectedCity {
+  font-size: 40px;
+}
+
+.selectedCityBlock {
+  margin-bottom: 10px;
+}
+
+.nextDaysWeatherBlock {
+  display: flex;
+}
+
+.nextDaysWeatherBlock div:not(:last-child) {
+  margin-right: 30px;
+}
