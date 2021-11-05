@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectCity component should match snapshot with 3 buttons 1`] = `
+<div
+  className="selectCityButtons"
+>
+  <button
+    className="selected"
+    key="Minsk"
+    onClick={[Function]}
+  >
+    Minsk
+  </button>
+  <button
+    className=""
+    key="Moscow"
+    onClick={[Function]}
+  >
+    Moscow
+  </button>
+  <button
+    className=""
+    key="Bratislava"
+    onClick={[Function]}
+  >
+    Bratislava
+  </button>
+</div>
+`;

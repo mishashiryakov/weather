@@ -12,12 +12,12 @@ export const NextDayWeather = (props: IWeatherData) => {
   
   return (
     <div className='weatherInfoSmall'>
-      <span className='degreeSmall'>{currentTemprature}°</span>
+      {temp ? <span className='degreeSmall'>{currentTemprature}°</span> : null}
       <div className='detailedInfoSmall'>
         <span className='date'>{moment(dt * ONE_SECOND).format('LL')}</span>
-        <span>Feels like: {feelsLike}°</span>
-        <span>Humidity: {humidity}%</span>
-        <span>Description: {weather[0].description}</span>
+        {feels_like ? <span>Feels like: {feelsLike}°</span> : null}
+        {humidity ? <span>Humidity: {humidity}%</span> : null}
+        {weather?.[0]?.description ? <span>Description: {weather[0].description}</span> : null}
       </div>
     </div>
   );
